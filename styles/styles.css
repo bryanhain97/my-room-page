@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Spartan", sans-serif;
+  font-size: 12px;
+}
+
+.top {
+  width: 100%;
+  height: 68vh;
+  display: flex;
+}
+.top-left {
+  display: inline-block;
+  width: 60%;
+  height: inherit;
+  background-image: url("../images/desktop-image-hero-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top-left .nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 40px 50px;
+}
+.top-left .nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.top-left .nav-list {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.top-left .nav li a {
+  font-size: 1rem;
+}
+.top-right {
+  width: 40%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-right .container {
+  height: 80%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.top-right .container .top-container, .top-right .container .bot-container {
+  flex: 1;
+}
+.top-right .container .mid-container {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+}
+.top-right .container .mid-container h1 {
+  flex: 1;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.top-right .container .mid-container p {
+  margin-top: 20px;
+  flex: 1;
+  line-height: 1.8rem;
+}
+.top-right .container .mid-container a {
+  flex: 1;
+  margin-top: 35px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.7rem;
+  text-decoration: none;
+  color: #454545;
+}
+.top-right .container .mid-container a span {
+  padding: 0 20px;
+  font-size: 2.5rem;
+}
+.top-right .buttons {
+  width: 100%;
+}
+.top-right .buttons button {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border: none;
+  font-size: 2rem;
+  color: #454545;
+}
+
+/*# sourceMappingURL=styles.css.map */
